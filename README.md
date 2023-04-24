@@ -110,3 +110,4 @@ coercer: error: the following arguments are required: mode
 66. wmiexec.py
 67. wmipersist.py
 68. wmiquery.py
+69. ldapmonitor
