@@ -30,8 +30,9 @@ RUN wget https://raw.githubusercontent.com/p0dalirius/LDAPmonitor/master/python/
 
 # 5. pywhisker
 RUN wget https://raw.githubusercontent.com/ShutdownRepo/pywhisker/main/pywhisker.py -O pywhisker
-# RUN /opt/venv/bin/python3 -m pip install ldap3 python-ldap
-# test
-# ENTRYPOINT ["/bin/sh"]
+
+# 6. domainusertoxls
+RUN wget https://raw.githubusercontent.com/Blyth0He/DomainUsersToXLSX/main/DomainUsersToXLSX.py -O domainusertoxls
+
 
 ENTRYPOINT ["/opt/venv/bin/python3"]
