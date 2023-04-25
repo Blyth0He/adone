@@ -34,5 +34,8 @@ RUN wget https://raw.githubusercontent.com/ShutdownRepo/pywhisker/main/pywhisker
 # 6. domainusertoxls
 RUN wget https://raw.githubusercontent.com/Blyth0He/DomainUsersToXLSX/main/DomainUsersToXLSX.py -O domainusertoxls
 
+# 7. githack
+COPY tools .
+
 
 ENTRYPOINT ["/opt/venv/bin/python3"]
